@@ -6,6 +6,7 @@ public class notasAlunos {
     private float nota1;
     private float nota2;
     private float nota3;
+    private float calculaAproveitamento;
 
     public float getMediaExercicios() {
         return mediaExercicios;
@@ -39,7 +40,13 @@ public class notasAlunos {
         this.nota3 = nota3;
     }
 
+    public float getCalculaAproveitamento() {
+        return calculaAproveitamento;
+    }
 
+    public void setCalculaAproveitamento(float calculaAproveitamento) {
+        this.calculaAproveitamento = calculaAproveitamento;
+    }
 }
 
 
