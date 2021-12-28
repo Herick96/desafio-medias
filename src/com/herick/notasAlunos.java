@@ -40,13 +40,9 @@ public class notasAlunos {
         this.nota3 = nota3;
     }
 
-    public float getCalculaAproveitamento() {
-        return calculaAproveitamento;
-    }
+    public float getCalculaAproveitamento() {return calculaAproveitamento;}
 
-    public void setCalculaAproveitamento(float calculaAproveitamento) {
-        this.calculaAproveitamento = calculaAproveitamento;
-    }
+    public void setCalculaAproveitamento(float calculaAproveitamento) {this.calculaAproveitamento = calculaAproveitamento;}
 }
 
 
